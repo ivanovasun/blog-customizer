@@ -30,6 +30,10 @@
 	cursor: pointer;
 }
 
+.placeholder:focus-visible {
+	outline: 2px solid #000000;
+}
+
 .placeholder[data-selected='true'] {
 	color: rgb(0 0 0);
 }
